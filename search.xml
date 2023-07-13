@@ -107,17 +107,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px !important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -130,10 +119,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/transpancy.css"/>
-      <url>/css/transpancy.css</url>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 文章页背景 */.layout_post>#post {    /* 以下代表透明度为0.7 可以自行修改*/    background: rgba(255, 255, 255, 0);}/* 所有页面背景 */#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {    /* 以下代表透明度为0.7 */    background: rgba(255, 255, 255, 0);}/*侧边卡片的透明度 */:root {    --card-bg: rgba(255, 255, 255, 0.5);}/* 页脚透明 */#footer {    /* 以下代表透明度为0.7 */    background: rgba(255, 255, 255, .3);}]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 鼠标样式 */#cursor {    position: fixed;    width: 16px;    height: 16px;    /* 这里改变跟随的底色 */    background: var(70,162,231);    border-radius: 8px;    opacity: 0.25;    z-index: 10086;    pointer-events: none;    transition: 0.2s ease-in-out;    transition-property: background, opacity, transform;}#cursor.hidden {    opacity: 0;}#cursor.hover {    opacity: 0.1;    transform: scale(2.5);    -webkit-transform: scale(2.5);    -moz-transform: scale(2.5);    -ms-transform: scale(2.5);    -o-transform: scale(2.5);}#cursor.active {    opacity: 0.5;    transform: scale(0.5);    -webkit-transform: scale(0.5);    -moz-transform: scale(0.5);    -ms-transform: scale(0.5);    -o-transform: scale(0.5);}]]></content>
       
     </entry>
     
@@ -152,10 +141,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <link href="/css/transpancy.css"/>
+      <url>/css/transpancy.css</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 鼠标样式 */#cursor {    position: fixed;    width: 16px;    height: 16px;    /* 这里改变跟随的底色 */    background: var(70,162,231);    border-radius: 8px;    opacity: 0.25;    z-index: 10086;    pointer-events: none;    transition: 0.2s ease-in-out;    transition-property: background, opacity, transform;}#cursor.hidden {    opacity: 0;}#cursor.hover {    opacity: 0.1;    transform: scale(2.5);    -webkit-transform: scale(2.5);    -moz-transform: scale(2.5);    -ms-transform: scale(2.5);    -o-transform: scale(2.5);}#cursor.active {    opacity: 0.5;    transform: scale(0.5);    -webkit-transform: scale(0.5);    -moz-transform: scale(0.5);    -ms-transform: scale(0.5);    -o-transform: scale(0.5);}]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 文章页背景 */.layout_post>#post {    /* 以下代表透明度为0.7 可以自行修改*/    background: rgba(255, 255, 255, 0);}/* 所有页面背景 */#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {    /* 以下代表透明度为0.7 */    background: rgba(255, 255, 255, 0);}/*侧边卡片的透明度 */:root {    --card-bg: rgba(255, 255, 255, 0.5);}/* 页脚透明 */#footer {    /* 以下代表透明度为0.7 */    background: rgba(255, 255, 255, .3);}]]></content>
       
     </entry>
     
@@ -167,6 +156,28 @@
       <url>/music/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"> <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script> <script>console.error("Error: [hexo-tag-aplayer] Meting support is disabled, cannot resolve the meting tags properly.");</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px !important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -195,11 +206,11 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/runtime/cursor.js"/>
+      <url>/js/runtime/cursor.js</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8 8" width="8px" height="8px"><circle cx="4" cy="4" r="4" opacity="1.0" fill="rgb(70,162,231)"/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
       
     </entry>
     
@@ -207,10 +218,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime/cursor.js"/>
-      <url>/js/runtime/cursor.js</url>
+      <link href="/js/runtime/runtime.js"/>
+      <url>/js/runtime/runtime.js</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8 8" width="8px" height="8px"><circle cx="4" cy="4" r="4" opacity="1.0" fill="rgb(70,162,231)"/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var now = new Date; function createtime() { var t = new Date("18/10/2022 00:00:00"); now.setTime(now.getTime() + 250); var e = (now - t) / 1e3 / 60 / 60 / 24, a = Math.floor(e), n = (now - t) / 1e3 / 60 / 60 - 24 * a, r = Math.floor(n); 1 == String(r).length && (r = "0" + r); var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r, i = Math.floor(s); 1 == String(i).length && (i = "0" + i); var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i, l = Math.round(o); 1 == String(l).length && (l = "0" + l); let g = ""; g = r < 18 && r >= 9 ? `<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-上班摸鱼中.svg" title="赚够100就结婚"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>` : `<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-下班啦.svg" title="下班了就该开开心心的玩耍，嘿嘿~"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g) } setInterval((() => { createtime() }), 250);]]></content>
       
     </entry>
     
@@ -229,10 +240,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime/runtime.js"/>
-      <url>/js/runtime/runtime.js</url>
+      <link href="/js/runtime/runtime.min.js"/>
+      <url>/js/runtime/runtime.min.js</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var now = new Date; function createtime() { var t = new Date("18/10/2022 00:00:00"); now.setTime(now.getTime() + 250); var e = (now - t) / 1e3 / 60 / 60 / 24, a = Math.floor(e), n = (now - t) / 1e3 / 60 / 60 - 24 * a, r = Math.floor(n); 1 == String(r).length && (r = "0" + r); var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r, i = Math.floor(s); 1 == String(i).length && (i = "0" + i); var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i, l = Math.round(o); 1 == String(l).length && (l = "0" + l); let g = ""; g = r < 18 && r >= 9 ? `<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-上班摸鱼中.svg" title="赚够100就结婚"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>` : `<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-下班啦.svg" title="下班了就该开开心心的玩耍，嘿嘿~"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g) } setInterval((() => { createtime() }), 250);]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var now=new Date;function createtime(){var t=new Date("18/10/2022 00:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=r<18&&r>=9?`<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-上班摸鱼中.svg" title="赚够100就结婚"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`:`<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-下班啦.svg" title="下班了就该开开心心的玩耍，嘿嘿~"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval(()=>{createtime()},250);</18&&r>]]></content>
       
     </entry>
     
@@ -250,11 +261,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/runtime/runtime.min.js"/>
-      <url>/js/runtime/runtime.min.js</url>
+      <title>Past</title>
+      <link href="/schedule/Past/index.html"/>
+      <url>/schedule/Past/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var now=new Date;function createtime(){var t=new Date("18/10/2022 00:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=r<18&&r>=9?`<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-上班摸鱼中.svg" title="赚够100就结婚"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`:`<img class="boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/芳芳-下班啦.svg" title="下班了就该开开心心的玩耍，嘿嘿~"><span class="textTip"> <br> 本站居然运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval(()=>{createtime()},250);</18&&r>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/74.1y9k1pg42nfk.jpg" alt="74" style="zoom: 25%;"><p><u><strong>我们手牵手一起走过一座座城</strong></u></p><p>​                                                <strong><u>——–致</u></strong> </p><p>​                                                        <strong><u>我亲爱的芳芳</u></strong></p><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><u>可可要带芳芳一起走过一座座城，这里是过去的足迹，在可可不在身边的时候希望芳芳不要忘记可可</u></p><h1 id="一起走过的城🏰"><a href="#一起走过的城🏰" class="headerlink" title="一起走过的城🏰"></a>一起走过的城🏰</h1><h2 id="1-泉州"><a href="#1-泉州" class="headerlink" title="1.泉州"></a><a href="https://simbalin.github.io/schedule/Past/%E6%B3%89%E5%B7%9E">1.泉州</a></h2><h2 id="2-厦门"><a href="#2-厦门" class="headerlink" title="2.厦门"></a><a href="https://simbalin.github.io/schedule/Past/%E5%8E%A6%E9%97%A8">2.厦门</a></h2><h2 id="3-漳州"><a href="#3-漳州" class="headerlink" title="3.漳州"></a><a href="https://simbalin.github.io/schedule/Past/%E6%BC%B3%E5%B7%9E">3.漳州</a></h2>]]></content>
       
     </entry>
     
@@ -265,18 +276,7 @@
       <link href="/schedule/Now/index.html"/>
       <url>/schedule/Now/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/7805257409faed2df6b99c7744ec17b.3rowwznhrkc0.jpg" alt="7805257409faed2df6b99c7744ec17b" style="zoom: 50%;"><p><em>现在的我们虽然分隔两地，可可和芳芳一点点靠近</em></p><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><em><strong>相距800km不分离</strong></em></p><h2 id="可可在"><a href="#可可在" class="headerlink" title="可可在"></a>可可在</h2><p><strong><a href="https://simbalin.github.io/schedule/Future/">宁波（Ningbo）</a></strong></p><h2 id="芳芳在"><a href="#芳芳在" class="headerlink" title="芳芳在"></a>芳芳在</h2><p><strong><a href="https://simbalin.github.io/schedule/Future/">瑞金（Ruijin）</a></strong></p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Past</title>
-      <link href="/schedule/Past/index.html"/>
-      <url>/schedule/Past/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/74.1y9k1pg42nfk.jpg" alt="74" style="zoom: 25%;"><p><u><strong>我们手牵手一起走过一座座城</strong></u></p><p>​                                                <strong><u>——–致</u></strong> </p><p>​                                                        <strong><u>我亲爱的芳芳</u></strong></p><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><u>可可要带芳芳一起走过一座座城，这里是过去的足迹，在可可不在身边的时候希望芳芳不要忘记可可</u></p><h1 id="一起走过的城🏰"><a href="#一起走过的城🏰" class="headerlink" title="一起走过的城🏰"></a>一起走过的城🏰</h1><h2 id="1-泉州"><a href="#1-泉州" class="headerlink" title="1.泉州"></a><a href="https://simbalin.github.io/schedule/Past/%E6%B3%89%E5%B7%9E">1.泉州</a></h2><h2 id="2-厦门"><a href="#2-厦门" class="headerlink" title="2.厦门"></a><a href="https://simbalin.github.io/schedule/Past/%E5%8E%A6%E9%97%A8">2.厦门</a></h2><h2 id="3-漳州"><a href="#3-漳州" class="headerlink" title="3.漳州"></a><a href="https://simbalin.github.io/schedule/Past/%E6%BC%B3%E5%B7%9E">3.漳州</a></h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/7805257409faed2df6b99c7744ec17b.3rowwznhrkc0.jpg" alt="7805257409faed2df6b99c7744ec17b" style="zoom: 50%;"><p><em>现在的我们虽然分隔两地，可可和芳芳一点点靠近</em></p><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><em><strong>相距800km不分离</strong></em></p><h2 id="可可在"><a href="#可可在" class="headerlink" title="可可在"></a>可可在</h2><p><strong><a href="https://simbalin.github.io/schedule/Now/%E5%AE%81%E6%B3%A2/">宁波（Ningbo）</a></strong></p><h2 id="芳芳在"><a href="#芳芳在" class="headerlink" title="芳芳在"></a>芳芳在</h2><p><strong><a href="https://simbalin.github.io/schedule/Now/%E7%91%9E%E9%87%91/">瑞金（Ruijin）</a></strong></p>]]></content>
       
     </entry>
     
@@ -305,33 +305,11 @@
     
     
     <entry>
-      <title>宁波</title>
-      <link href="/schedule/Now/%E5%AE%81%E6%B3%A2/index.html"/>
-      <url>/schedule/Now/%E5%AE%81%E6%B3%A2/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>泉州之行</title>
       <link href="/photos/%E6%B3%89%E5%B7%9E%E4%B9%8B%E8%A1%8C/index.html"/>
       <url>/photos/%E6%B3%89%E5%B7%9E%E4%B9%8B%E8%A1%8C/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><table rules="none" align="center">    <tr>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/16.7cvgu4zctq00.jpg" width="60%">                <br>                <font color="AAAAAA">修勾勾</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/15.3zipuwv559m0.jpg" width="60%">                <br>                <font color="AAAAAA">面积一样大</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/11.6odmgsyzi140.jpg" width="60%">                <br>                <font color="AAAAAA">终于拉近了距离</font>            </center>        </td>    </tr></table><table rules="none" align="center">    <tr>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/5.4n74d1u5zeg0.jpg" width="60%">                <br>                <font color="AAAAAA">第一次牵手手</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/4.22w25477k6hs.jpg" width="60%">                <br>                <font color="AAAAAA">比高高</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/53.3gg13b5os3o0.jpg" width="60%">                <br>                <font color="AAAAAA">长鼻王</font>            </center>        </td>    </tr></table><table rules="none" align="center"><tr>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/52.3g1gh4jl8xo0.jpg" width="60%">                <br>                <font color="AAAAAA">大可可</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/51.3r9geaby1hm0.jpg" width="60%">                <br>                <font color="AAAAAA">大玫瑰</font>            </center>        </td>        <td>            <center>                <img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/58.3bs8wz84jji0.jpg" width="60%">                <br>                <font color="AAAAAA">摸头头</font>            </center>        </td>    </tr></table>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>瑞金</title>
-      <link href="/schedule/Now/%E7%91%9E%E9%87%91/index.html"/>
-      <url>/schedule/Now/%E7%91%9E%E9%87%91/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -349,22 +327,44 @@
     
     
     <entry>
-      <title>漳州</title>
-      <link href="/schedule/Past/%E6%BC%B3%E5%B7%9E/index.html"/>
-      <url>/schedule/Past/%E6%BC%B3%E5%B7%9E/index.html</url>
+      <title>泉州</title>
+      <link href="/schedule/Past/%E6%B3%89%E5%B7%9E/index.html"/>
+      <url>/schedule/Past/%E6%B3%89%E5%B7%9E/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><h4 id="漳州"><a href="#漳州" class="headerlink" title="漳州"></a><strong>漳州</strong></h4><p><em>一座我们一起路过稍作停留的城市</em></p><p><u>虽然停留时间不长，但是我们放下行囊一起吃了鸡蛋汉堡，还吃了我们最爱的火锅锅</u></p><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/zz1.48ns9e8m4pm0.jpg" alt="zz1" style="zoom:33%;"><p><strong>ps*可可想和芳芳再一次一起吃鸡蛋汉堡，下一次也要一起吃火锅锅噢</strong></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/45.5dep9g30peg0.jpg" alt="45" style="zoom:50%;"><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><em>和芳芳第一次一起出去玩，坐最早的高铁出门，手牵着手一起开启我们第一次出游</em></p><h1 id="相关相册"><a href="#相关相册" class="headerlink" title="相关相册"></a>相关相册</h1><h2 id="泉州之行"><a href="#泉州之行" class="headerlink" title="泉州之行"></a><a href="https://simbalin.github.io/photos/%E6%B3%89%E5%B7%9E%E4%B9%8B%E8%A1%8C/">泉州之行</a></h2><p><u>可可和芳芳在一起的每一刻</u></p><h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><h2 id="800km遇见那个她"><a href="#800km遇见那个她" class="headerlink" title="800km遇见那个她"></a><a href="https://simbalin.github.io/posts/4e5d6ae8.html">800km遇见那个她</a></h2><p><u>第一次遇见，期待已久，两个人相遇的概率是0.0049%，但是我们相遇的概率是100%</u></p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>泉州</title>
-      <link href="/schedule/Past/%E6%B3%89%E5%B7%9E/index.html"/>
-      <url>/schedule/Past/%E6%B3%89%E5%B7%9E/index.html</url>
+      <title>瑞金</title>
+      <link href="/schedule/Now/%E7%91%9E%E9%87%91/index.html"/>
+      <url>/schedule/Now/%E7%91%9E%E9%87%91/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/45.5dep9g30peg0.jpg" alt="45" style="zoom:50%;"><h1 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h1><p><em>和芳芳第一次一起出去玩，坐最早的高铁出门，手牵着手一起开启我们第一次出游</em></p><h1 id="相关相册"><a href="#相关相册" class="headerlink" title="相关相册"></a>相关相册</h1><h2 id="泉州之行"><a href="#泉州之行" class="headerlink" title="泉州之行"></a><a href="https://simbalin.github.io/photos/%E6%B3%89%E5%B7%9E%E4%B9%8B%E8%A1%8C/">泉州之行</a></h2><p><u>可可和芳芳在一起的每一刻</u></p><h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><h2 id="800km遇见那个她"><a href="#800km遇见那个她" class="headerlink" title="800km遇见那个她"></a><a href="https://simbalin.github.io/posts/4e5d6ae8.html">800km遇见那个她</a></h2><p><u>第一次遇见，期待已久，两个人相遇的概率是0.0049%，但是我们相遇的概率是100%</u></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>宁波</title>
+      <link href="/schedule/Now/%E5%AE%81%E6%B3%A2/index.html"/>
+      <url>/schedule/Now/%E5%AE%81%E6%B3%A2/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漳州</title>
+      <link href="/schedule/Past/%E6%BC%B3%E5%B7%9E/index.html"/>
+      <url>/schedule/Past/%E6%BC%B3%E5%B7%9E/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><meta name="referrer" content="no-referrer"><h4 id="漳州"><a href="#漳州" class="headerlink" title="漳州"></a><strong>漳州</strong></h4><p><em>一座我们一起路过稍作停留的城市</em></p><p><u>虽然停留时间不长，但是我们放下行囊一起吃了鸡蛋汉堡，还吃了我们最爱的火锅锅</u></p><img src="https://cdn.staticaly.com/gh/Simbalin/picx-images-hosting@master/zz1.48ns9e8m4pm0.jpg" alt="zz1" style="zoom:33%;"><p><strong>ps*可可想和芳芳再一次一起吃鸡蛋汉堡，下一次也要一起吃火锅锅噢</strong></p>]]></content>
       
     </entry>
     

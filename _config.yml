@@ -103,9 +103,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://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@github.com/Simbalin/Simbalin.github.io.git
-  branch: master
-
+  repo: git@github.com:Simbalin/Simbalin.github.io.git
+  branch: main
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32

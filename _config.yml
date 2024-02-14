@@ -104,7 +104,7 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:Simbalin/Simbalin.github.io.git
-  branch: master
+  branch: main
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
